@@ -18,9 +18,9 @@ class Person {
 class Student extends Person {
   constructor(
     public readonly studentId: number,
-    public name: string,
-    public email: string,
-    public mobile: string,
+    public override name: string,
+    public override email: string,
+    public override mobile: string,
     public grade: number
   ) {
     super(name, email, mobile);

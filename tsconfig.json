@@ -27,6 +27,7 @@
     "removeComments": true,
     "noEmitOnError": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "noImplicitOverride": true
   }
 }
